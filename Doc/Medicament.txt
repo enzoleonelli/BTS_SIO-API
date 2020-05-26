@@ -1,0 +1,50 @@
+		Créer
+
+Routes : post"/api/medicament/"
+
+Model : {
+    		"nom": "nom",
+    		"nbBoitesMax": "INTERGER",
+    		"nbBoitesAchetees": "INTERGER",
+    		"nbMedocParBoite": "INTERGER",
+    		"nbFoisParJour": "INTERGER",
+    		"nbJourParSemaine": "INTERGER",
+    		"finDeLaPrise": "DATETIME",
+    		"heuresPrises": "INTERGER",
+    		"createdAt": "DATETIME",
+    		"updatedAt": "DATETIME"
+	}
+
+
+		Voir toutes les medicaments
+
+Routes : get"/api/medicament/"
+
+		Voir un medicamentspécifique
+
+Routes : get"/api/medicament/:id"
+
+		Mettre a jour un medicament
+
+Routes : put"/api/medicament/:id"
+
+Model : {
+    		"nom": "nom",
+    		"nbBoitesMax": "INTERGER",
+    		"nbBoitesAchetees": "INTERGER",
+    		"nbMedocParBoite": "INTERGER",
+    		"nbFoisParJour": "INTERGER",
+    		"nbJourParSemaine": "INTERGER",
+    		"finDeLaPrise": "DATETIME",
+    		"heuresPrises": "INTERGER",
+    		"createdAt": "DATETIME",
+    		"updatedAt": "DATETIME"
+	}
+
+		Supprimer tous les medicament
+
+Routes : delete"/api/medicament/"
+
+		Supprimer tous les medicament specifiques
+
+Routes : delete"/api/medicament/:id"

@@ -1,0 +1,38 @@
+		Créer
+
+Routes : post"/api/priseMedoc/"
+
+Model : {
+    		"heurePrise": "DATETIME",
+    		"pris": BOOLEAN
+    		"createdAt": "DATETIME",
+    		"updatedAt": "DATETIME"
+	}
+
+
+		Voir toutes les prises de médicaments
+
+Routes : get"/api/priseMedoc/"
+
+		Voir une prises de médicaments spécifique
+
+Routes : get"/api/priseMedoc/:id"
+
+		Mettre a jour une ordonance
+
+Routes : put"/api/priseMedoc/:id"
+
+Model : {
+    		"heurePrise": "DATETIME",
+    		"pris": BOOLEAN
+    		"createdAt": "DATETIME",
+    		"updatedAt": "DATETIME"
+	}
+
+		Supprimer toutes les prises de médicaments
+
+Routes : delete"/api/priseMedoc/"
+
+		Supprimer toutes les prises de médicaments
+
+Routes : delete"/api/priseMedoc/:id"

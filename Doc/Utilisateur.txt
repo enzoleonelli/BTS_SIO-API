@@ -1,0 +1,11 @@
+		Voir tous les utilisateur
+
+Routes : get"/api/user/"
+
+		Test role administrateur
+
+Routes : get"/api/test/admin"
+
+		Test role utilisateur
+
+Routes : put"/api/test/user"

@@ -1,0 +1,43 @@
+		Créer
+
+Routes : post"/api/ordonance/"
+
+Model : {
+    		"titre": "STRING",
+    		"description": "STRING",
+    		"dateDebut": "DATETME",
+    		"dateFin": "DATETIME"
+		"id_medocs": "INTEGER"
+	}
+
+		Voir toutes les ordonances
+
+Routes : get"/api/ordonance/"
+
+		Voir une ordonance spécifique
+
+Routes : get"/api/ordonance/:id"
+
+		Voir les ordonance avec l'id utilisateur
+
+Routes : get"/api/ordonance/:id"
+
+		Mettre a jour une ordonance
+
+Routes : put"/api/ordonance/:id"
+
+Model : {
+    		"titre": "STRING",
+    		"description": "STRING",
+    		"dateDebut": "DATETME",
+    		"dateFin": "DATETIME"
+		"id_medocs": "INTEGER"
+	}
+
+		Supprimer toutes les ordonances
+
+Routes : delete"/api/ordonance/"
+
+		Supprimer toutes les ordonances specifiques
+
+Routes : delete"/api/ordonance/:id"

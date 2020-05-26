@@ -1,0 +1,19 @@
+		Inscription
+
+Routes : post"/api/auth/signup"
+
+Model : {
+    		"username": "STRING",
+    		"email": "STRING",
+    		"password": "STRING",
+    		"roles": ["(admin/user)"]
+	}
+
+		Connexion
+
+Routes : post"/api/auth/signin"
+
+Model : {
+    		"username": "STRING",
+    		"password": "STRING",
+	}
